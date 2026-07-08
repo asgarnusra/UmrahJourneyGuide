@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Umrah Journey Guide</title>
+
+    <meta name="description" content="Explore Umrah travel guides, checklists, visa tips, and pilgrimage resources for travelers from the UAE and around the world.">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f7fa;
+            color:#333;
+        }
+
+        header{
+            background:#0f766e;
+            padding:20px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            color:white;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            font-weight:600;
+        }
+
+        .hero{
+            background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+            url('https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1600');
+            background-size:cover;
+            background-position:center;
+            color:white;
+            text-align:center;
+            padding:100px 20px;
+        }
+
+        .hero h1{
+            font-size:48px;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            max-width:700px;
+            margin:auto;
+            font-size:20px;
+        }
+
+        .search-box{
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        .search-box input{
+            width:60%;
+            max-width:500px;
+            padding:15px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        .blog-container{
+            width:85%;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:30px;
+            padding-bottom:60px;
+        }
+
+        .card{
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,.1);
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .content{
+            padding:20px;
+        }
+
+        .content h3{
+            margin-bottom:15px;
+        }
+
+        .content p{
+            margin-bottom:20px;
+            color:#666;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0f766e;
+            color:white;
+            padding:10px 18px;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        footer{
+            background:#0f766e;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        @media(max-width:768px){
+            header{
+                flex-direction:column;
+            }
+
+            nav{
+                margin-top:15px;
+            }
+
+            .hero h1{
+                font-size:34px;
+            }
+
+            .search-box input{
+                width:90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Umrah Journey Guide</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Umrah Travel Blogs & Resources</h1>
+    <p>
+        Discover practical tips, travel checklists, visa guidance,
+        and planning advice for a smooth Umrah journey.
+    </p>
+</section>
+
+<div class="search-box">
+    <input type="text" placeholder="Search articles...">
+</div>
+
+<section class="blog-container">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1542816417-0983670d9f0b?w=800">
+
+        <div class="content">
+            <h3>Travel Checklist for Pilgrims Booking Umrah Packages from the UAE</h3>
+
+            <p>
+                Prepare for your journey with this complete travel
+                checklist for pilgrims.
+            </p>
+
+            <a href="travel-checklist.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800">
+
+        <div class="content">
+            <h3>Essential Packing Tips for Umrah</h3>
+
+            <p>
+                Learn what every pilgrim should pack for a comfortable
+                and organized journey.
+            </p>
+
+            <a href="packing-guide.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=800">
+
+        <div class="content">
+            <h3>Umrah Visa Preparation Tips</h3>
+
+            <p>
+                Understand the important steps involved in preparing
+                for your Umrah visa process.
+            </p>
+
+            <a href="visa-tips.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <h3>Umrah Journey Guide</h3>
+    <p>Helping pilgrims prepare for a meaningful journey.</p>
+    <br>
+    <p>© 2026 Umrah Journey Guide. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
